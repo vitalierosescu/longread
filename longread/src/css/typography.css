@@ -1,0 +1,31 @@
+body {
+  font-size: var(--fontRegular);
+  font-family: var(--font);
+  font-weight: var(--fontWeightRegular);
+  background: var(--colorDark);
+
+  @media (--ipad) {
+    font-size: var(--fontRegular-phone);
+  }
+}
+
+h1, .h1-like {
+  font-size: var(--fontBig);
+  /* font-family: var(--font); */
+  font-weight: var(--fontWeightBold);
+  margin: 0 0 1rem;
+}
+
+h2, .h2-like {
+  display: block;
+  font-family: var(--font);
+  font-weight: var(--fontWeightBold);
+  font-size: var(--fontSubtitle);
+  color: var(--colorWhite);
+  line-height: 110%;
+  margin: 0 0 .5rem;
+
+  @media (--ipad) {
+    font-size: var(--fontSubtitle-phone);
+  }
+}

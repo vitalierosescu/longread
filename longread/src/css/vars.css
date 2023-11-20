@@ -1,0 +1,28 @@
+:root {
+  --colorLight: #f02762;
+  --colorDark: #120f27;
+  --colorWhite: white;
+  --colorAccent: #09BB9B;
+  --spacerSmall: .75rem; /* 12px */
+  --spacerRegular: 1rem; /* 16px */
+  --spacerBig: 1.88rem; /* 30px */
+  --paddingBig: 5rem;
+  --paddingSmall: 2rem;
+  --fontSmall: 1.1rem; /* 12px */
+  --fontRegular: 1.6rem;
+  --fontRegular-phone: 1.8rem;
+  --fontBig: 2rem;
+  --fontSubtitle: 4.8rem;
+  --fontSubtitle-phone: 4rem;
+  --font: 'avenir next';
+  --fontWeightRegular: 400;
+  --fontWeightBold: 700;
+  --fontWeightHeavy: 900;
+  --maxWidth: 1200px;
+}
+
+@custom-media --iphone-mini (width <= 550px);
+@custom-media --iphone (width <= 700px);
+@custom-media --ipad (width <= 900px);
+@custom-media --macbook (width <= 1120px);
+@custom-media --imac (width <= 1440px);

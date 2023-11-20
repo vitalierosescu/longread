@@ -1,0 +1,16 @@
+{
+  "name": "int3",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:devinehowest/wad-fullstackreisduif.git",
+  "author": "Simon Vanherweghe <simon.vanherweghe@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "longread": "cd longread/ && yarn && yarn dev",
+    "webshop": "cd webshop/ && yarn && yarn dev"
+  },
+  "cacheDirectories": [
+    "longread/node_modules",
+    "webshop/node_modules"
+  ]
+}

@@ -1,0 +1,73 @@
+body,
+.text-body {
+  font-size: 1.6rem;
+  line-height: 1.5;
+  font-family: 'helvetica neue';
+  font-weight: normal;
+  font-style: normal;
+  letter-spacing: .01em;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  /* stylelint-disable-next-line */
+  font-smoothing: antialiased;
+
+  @media (--iphone) {
+    font-size: 1.8rem;
+  }
+}
+
+.h1-like {
+  font-family: 'swis cn';
+  font-size: 4.8rem;
+  text-transform: uppercase;
+  margin-top: 4rem;
+  line-height: 1.1;
+
+  @media (--iphone-max) {
+    font-size: 3.2rem;
+  }
+}
+
+h2, .h2-like {
+  font-family: 'swis cn';
+  font-weight: var(--weight-bold);
+  font-size: 4rem;
+  text-transform: uppercase;
+  margin-bottom: 2rem;
+  line-height: 1.1;
+}
+
+h3, .h3-like {
+  font-family: 'helvetica neue';
+  font-weight: var(--weight-bold);
+  font-size: 2.4rem;
+  margin-bottom: .4rem;
+  color: var(--color-humoRed);
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.text-body-14 {
+  font-family: 'helvetica neue';
+  font-size: 1.4rem;
+}
+
+.text-body-16 {
+  font-family: 'helvetica neue';
+  font-size: 1.6rem;
+}
+
+.text-body-20 {
+  font-family: 'helvetica neue';
+  font-size: 2rem;
+}
+
+.text-align-left {
+  text-align: left;
+}
+
+.text-align-center {
+  text-align: center;
+}

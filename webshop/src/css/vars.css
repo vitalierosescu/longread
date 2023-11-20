@@ -1,0 +1,56 @@
+:root {
+  --color-black: black;
+  --color-white: white;
+  --color-dark: #1a1813;
+  --color-humoRed: #ee060d;
+  --color-humoGrey: #f8f9f3;
+  --color-humoBeige: #fdf6e6;
+  --color-humoYellow: #ffe40a;
+  --color-humoLightYellow: #fdfaab;
+  --weight-regular: 400;
+  --weight-bold: 700;
+  --weight-bolder: 900;
+  --pink: #ffb3ba;
+  --beige: #f8f3f2;
+  --blauw: #4eb3ba;
+  --padding-small: 2.5rem;
+  --padding-medium: 5rem;
+  --padding-big: 7.5rem;
+  --max-width: calc(144.4rem - var(--padding-medium));
+
+  /* stylelint-disable */
+  --font-family-base:
+    'GT Walsheim',
+ -apple-system,
+ blinkmacsystemfont,
+    'Segoe UI',
+ roboto,
+ helvetica,
+ arial,
+ sans-serif,
+ 'Apple Color Emoji',
+    'Segoe UI Emoji',
+ 'Segoe UI Symbol';
+  --font-family-alt:
+    'Integral CF',
+ -apple-system,
+ blinkmacsystemfont,
+    'Segoe UI',
+ roboto,
+ helvetica,
+ arial,
+ sans-serif,
+ 'Apple Color Emoji',
+    'Segoe UI Emoji',
+ 'Segoe UI Symbol';
+  /* stylelint-enable */
+}
+
+/* @custom-media --iphone screen and (width <= 768px); */
+
+@custom-media --iphone-mini screen and (min-width: 320px) and (max-width:450px);
+@custom-media --iphone screen and (width <= 576px);
+@custom-media --iphone-max screen and (width <= 768px);
+@custom-media --ipad screen and (width <= 992px);
+@custom-media --macbook screen and (width <= 1280px);
+@custom-media --imac screen and (width <= 1440px);

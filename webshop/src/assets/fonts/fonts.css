@@ -1,0 +1,45 @@
+
+@font-face {
+  font-family: 'helvetica neue';
+  src:
+    url('helvetica_neue-bold.woff2') format('woff2'),
+    url('helvetica_neue-bold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'helvetica neue';
+  src:
+    url('helvetica_neue-regular.woff2') format('woff2'),
+    url('helvetica_neue-regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'swis cn';
+  src:
+    url('Swis721CnBTBold.woff2') format('woff2'),
+    url('Swis721CnBTBold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'swis blk';
+  src:
+    url('swz721k.woff2') format('woff2'),
+    url('swz721k.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'swis cn';
+  src:
+    url('Swis721BTBold.woff2') format('woff2'),
+    url('Swis721BTBold.woff') format('woff');
+  font-weight: 900;
+  font-style: normal;
+}
